@@ -1,0 +1,26 @@
+{
+  "name": "pjvr.co.za",
+  "version": "1.0.0",
+  "description": "Personal website for Pieter Jansen Van Rensburg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesmulder/pjvr.co.za.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesmulder/pjvr.co.za/issues"
+  },
+  "homepage": "https://github.com/charlesmulder/pjvr.co.za#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "sass": "^1.26.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

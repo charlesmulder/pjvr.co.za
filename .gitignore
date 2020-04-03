@@ -1,2 +1,4 @@
 *.swp
 assets
+node_modules
+

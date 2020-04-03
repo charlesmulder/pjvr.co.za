@@ -1,0 +1,39 @@
+---
+layout: common.hbs
+styling: home.css
+title: Pieter Jansen van Rensburg | New York | Paris
+---
+<main class="w3-content">
+
+    <div class="row">
+
+        {{#each column }}
+        <div class="column">
+            {{#each this }}
+                <div class="cell">
+                    {{#ifVideo this.type }}
+                    <div class="video-container">
+                    <iframe class="w3-mobile" src="{{ this.src }}" width="100%" height="{{ this.height }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    {{/ifVideo}}
+                    {{#ifImage this.type }}
+                    <img src="{{ this.src }}" class="w3-mobile" width="100%" alt="{{ this.alt }}" />
+                    {{/ifImage}}
+                    <p>{{ this.brand }} / {{ this.project }}</p>
+                </div>
+            {{/each}}
+        </div>
+        {{/each}}
+
+    </div>
+</main>
+
+
+<header>
+    <h1><span class="">Pieter Janse</span> van <span>Rensburg</span></h1>
+</header>
+
+<footer>
+    <h2>New York    Paris</h2>
+</footer>
+
