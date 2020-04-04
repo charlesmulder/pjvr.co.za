@@ -3,6 +3,14 @@ layout: common.hbs
 styling: home.css
 title: Pieter Jansen van Rensburg | New York | Paris
 ---
+<header>
+    <img src="/img/pjvr-logotype.png" class="w3-mobile pjvr-logo"/>
+</header>
+
+<address>
+    <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#110;&#102;&#111;&#064;&#112;&#106;&#118;&#114;&#046;&#099;&#111;&#046;&#122;&#097;"><img src="/img/pjvr-contact.png" class="w3-mobile pjvr-contact"/></a>
+</address>
+
 <main class="w3-content">
 
     <div class="row">
@@ -13,13 +21,13 @@ title: Pieter Jansen van Rensburg | New York | Paris
                 <div class="cell">
                     {{#ifVideo this.type }}
                     <div class="video-container">
-                    <iframe class="w3-mobile" src="{{ this.src }}" width="100%" height="{{ this.height }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="w3-mobile" src="{{ this.src }}?loop=1&amp;autoplay=1" width="100%" height="{{ this.height }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     {{/ifVideo}}
                     {{#ifImage this.type }}
                     <img src="{{ this.src }}" class="w3-mobile" width="100%" alt="{{ this.alt }}" />
                     {{/ifImage}}
-                    <p>{{ this.brand }} / {{ this.project }}</p>
+                    <p class="brand">{{ this.brand }} / {{ this.project }}</p>
                 </div>
             {{/each}}
         </div>
@@ -29,11 +37,8 @@ title: Pieter Jansen van Rensburg | New York | Paris
 </main>
 
 
-<header>
-    <h1><span class="">Pieter Janse</span> van <span>Rensburg</span></h1>
-</header>
 
 <footer>
-    <h2>New York    Paris</h2>
+    <img src="/img/pjvr-new-york-paris.png" class="w3-mobile pjvr-new-york-paris"/>
 </footer>
 

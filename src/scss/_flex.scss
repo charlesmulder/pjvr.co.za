@@ -1,4 +1,6 @@
-$space: 50px;
+$vspace: 50px;
+$hspace: 85px;
+$tablet: "only screen and (max-width: 800px)";
 
 @mixin sardines {
     padding: 0;
@@ -6,16 +8,30 @@ $space: 50px;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 50%;
-  max-width: 50%;
-  margin: 0;
-  padding: 0 $space;
+    flex: 50%;
+    max-width: 50%;
+    margin: 0;
+    padding: 0 $hspace;
+
+    &:first-child {
+        padding-right: 0;
+    }
+
+    @media #{$tablet} {
+        flex:100%;
+        max-width: 100%;
+
+        &:first-child {
+            padding-right: $hspace;
+        }
+    }
+
 }
 
 .column {
@@ -30,24 +46,21 @@ $space: 50px;
         }
         p {
             @include sardines;
+            &.brand {
+                font-family: "Staatliches";
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 11px;
+                line-height: 13px;
+                margin-top: 7px;
+            }
         }
         padding: 0;
-        margin: $space 0;
+        margin: 0 0 $vspace 0;
+
+        &:first-child {
+            margin-top: $vspace;
+        }
     }
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}

@@ -1,20 +1,46 @@
 header {
-    width: 100%;
     position: fixed;
-    top: 50%;
-    right: 5%;
-    text-align: right;
-}
-
-h1 {
-    font-weight: bold;
+    width: 100%;
+    top:45%;
+    z-index: 10;
+    margin-right: $hspace/2;
 }
 
 footer {
-    width: 100%;
     position: fixed;
-    bottom: 0;
+    width: 100%;
+    bottom:10%;
+    z-index: 10;
     text-align: center;
 }
+
+address {
+    position: fixed;
+    width: 100%;
+    top:10%;
+    z-index: 10;
+}
+
+img {
+    &.pjvr-logo {
+        width: 3390px;
+        max-width: 47%;
+        float: right;
+    }
+
+    &.pjvr-new-york-paris {
+        width: 1920px;
+        max-width: 24%;
+    }
+
+    &.pjvr-contact {
+        width: 1592px;
+        max-width: 17%;
+        float: left;
+        margin-left: $hspace/2;
+    }
+}
+
+
 
 
