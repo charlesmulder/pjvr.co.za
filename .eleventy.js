@@ -26,4 +26,7 @@ module.exports = function(eleventyConfig) {
             return content;
         }
     });
+    eleventyConfig.addPairedHandlebarsShortcode("token", function(content, type) {
+        return Date.now();
+    });
 };
