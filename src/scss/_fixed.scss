@@ -1,15 +1,53 @@
+
 header {
     position: fixed;
     width: 100%;
     top:45%;
     z-index: 10;
-    margin-right: $hspace/2;
+    margin:0;
+    padding:0;
+
+    .header__left {
+        width: 50%;
+        float: left;
+        height: 67px;
+        padding: 0;
+        margin: 0;
+
+        @media #{$tablet} {
+            display: none;
+        }
+    }
+
+    .header__right {
+        width: 50%;
+        float: left;
+        height: auto;
+        padding:0;
+        margin: 0;
+
+        @media #{$tablet} {
+            float: none;
+            width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            padding: 0 $unit 0 0;
+            margin:0;
+            @media #{$tablet} {
+                float: none;
+                padding: 0 $unit 0 $unit;
+                margin: auto;
+            }
+        }
+    }
 }
 
 footer {
     position: fixed;
     width: 100%;
-    bottom:10%;
+    bottom: $unit;
     z-index: 10;
     text-align: center;
 }
@@ -17,7 +55,12 @@ footer {
 address {
     position: fixed;
     width: 100%;
-    top:10%;
+    top:$unit;
+    left: 2*$unit;
+    @media #{$tablet} {
+        left: unset;
+        text-align: center;
+    }
     z-index: 10;
 }
 
@@ -30,14 +73,21 @@ img {
 
     &.pjvr-new-york-paris {
         width: 1920px;
-        max-width: 24%;
+        max-width: 28%;
+        @media #{$tablet} {
+            max-width: 40%;
+            margin: auto;
+        }
     }
 
     &.pjvr-contact {
         width: 1592px;
-        max-width: 17%;
-        float: left;
-        margin-left: $hspace/2;
+        max-width: 21%;
+
+        @media #{$tablet} {
+            margin: auto;
+            max-width: 35%;
+        }
     }
 }
 
