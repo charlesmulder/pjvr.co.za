@@ -44,11 +44,7 @@
         p {
             @include sardines;
             &.brand {
-                font-family: "Staatliches";
-                text-transform: uppercase;
-                font-weight: bold;
-                font-size: 11px;
-                line-height: 13px;
+                @include font;
                 margin-top: 7px;
             }
         }
@@ -57,6 +53,12 @@
 
         &:first-child {
             margin-top: $unit*2;
+        }
+
+        @media #{$tablet} {
+            &:last-child {
+                margin: 0;
+            }
         }
     }
 }

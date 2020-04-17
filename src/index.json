@@ -2,51 +2,153 @@
     "column": [
         [
             {
+                "type": "image",
+                "src": "/img/edition-creative direction-bags-luggage.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "EDITION",
+                "project": "CREATIVE DIRECTION"
+            },
+            {
+                "type": "image",
+                "src": "/img/quamta-creative-direction.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "QUAMTA",
+                "project": "CREATIVE DIRECTION"
+            },
+            {
+                "type": "image",
+                "src": "/img/jaeger-lecoultre-watch-design.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "JAEGER LECOULTRE",
+                "project": "WATCH DESIGN"
+            },
+            {
+                "type": "image",
+                "src": "/img/iwc-schaffhausen-accessories-design.jpg",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "IWC SCHAFFHAUSEN",
+                "project": "ACCESSORIES DESIGN"
+            },
+            {
                 "type": "video",
-                "src": "https://player.vimeo.com/video/402698942",
-                "height": "360",
-                "brand": "brand",
-                "project": "project"
+                "src": "https://player.vimeo.com/video/407190701",
+                "height": "355",
+                "brand": "NEEMA",
+                "project": "CREATIVE DIRECTION"
             },
             {
                 "type": "image",
-                "src": "https://picsum.photos/seed/addcbf9a-21e7-42c9-a790-d472c5893961/400/400.jpg",
+                "src": "/img/private-label.gif",
                 "alt": "alt text goes here",
-                "height": "400",
-                "brand": "brand",
-                "project": "project"
+                "height": "auto",
+                "brand": "PRIVATE LABEL",
+                "project": "BAGS AND SMALL LEATHER GOODS DESIGN"
             },
             {
                 "type": "image",
-                "src": "https://picsum.photos/seed/d9f92871-718f-4c8e-8e44-223563c27d87/400/500.jpg",
+                "src": "/img/lancel-design-direction.gif",
                 "alt": "alt text goes here",
-                "height": "500",
-                "brand": "brand",
-                "project": "project"
+                "height": "auto",
+                "brand": "LANCEL",
+                "project": "DESIGN DIRECTION"
+            },
+            {
+                "type": "video",
+                "src": "https://player.vimeo.com/video/408308358",
+                "height": "354",
+                "brand": "CARTIER",
+                "project": "VISUAL MERCHANDISING DESIGN"
+            },
+            {
+                "type": "image",
+                "src": "/img/christian louboutin-small-leather-goods design.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "CHRISTIAN LOUBOUTIN",
+                "project": "SMALL LEATHER GOODS DESIGN"
             }
         ],
         [
             {
+                "type": "video",
+                "src": "https://player.vimeo.com/video/407174627",
+                "height": "392",
+                "brand": "CHANEL PARTNERSHIP",
+                "project": "CREATIVE DIRECTION"
+            },
+            {
                 "type": "image",
-                "src": "https://media.giphy.com/media/StpQy97qQd5xO1HapP/giphy.gif",
-                "height": "270",
-                "brand": "brand",
-                "project": "project"
+                "src": "/img/colette-collaboration.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "COLETTE",
+                "project": "COLLABORATION"
+            },
+            {
+                "type": "image",
+                "src": "/img/alfred dunhill-bag-design.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "ALFRED DUNHILL",
+                "project": "BAG DESIGN"
             },
             {
                 "type": "video",
-                "src": "https://www.youtube.com/embed/j682_H84P9w",
-                "height": "360",
-                "brand": "brand",
-                "project": "project"
+                "src": "https://player.vimeo.com/video/407174627",
+                "height": "392",
+                "brand": "EDITION",
+                "project": "CREATIVE DIRECTION"
             },
             {
                 "type": "image",
-                "src": "https://picsum.photos/seed/28a781f6-e20f-46a6-b6fb-fd7d896b2909/500/300.webp",
+                "src": "/img/alfred dunhill-bag-hardware-design.gif",
                 "alt": "alt text goes here",
-                "height": "300",
-                "brand": "brand",
-                "project": "project"
+                "height": "auto",
+                "brand": "ALFRED DUNHILL",
+                "project": "BAG HARDWAREDESIGN"
+            },
+            {
+                "type": "image",
+                "src": "/img/quamta-small-leather-goods.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "QUAMTA",
+                "project": "CREATIVE DIRECTION"
+            },
+            {
+                "type": "video",
+                "src": "https://player.vimeo.com/video/405771834",
+                "height": "392",
+                "brand": "MONTBLANC",
+                "project": "DESIGN DIRECTION"
+            },
+            {
+                "type": "image",
+                "src": "/img/sunday times-collaboration.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "SUNDAY TIMES",
+                "project": "COLLABORATION"
+            },
+            {
+                "type": "image",
+                "src": "/img/samsung-collaboration.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "SAMSUNG",
+                "project": "COLLABORATION"
+            },
+            {
+                "type": "image",
+                "src": "/img/montblanc-design-direction-small-leather-goods.gif",
+                "alt": "alt text goes here",
+                "height": "auto",
+                "brand": "MONTBLANC",
+                "project": "DESIGN DIRECTION"
             }
         ]
     ]

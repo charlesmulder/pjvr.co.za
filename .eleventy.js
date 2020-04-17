@@ -1,6 +1,11 @@
 
 module.exports = function(eleventyConfig) {
     // Handlebars Helper
+    eleventyConfig.addPairedHandlebarsShortcode("ifSame", function(content, arg1, arg2) {
+        if(arg1 === arg2) {
+            return content;
+        }
+    });
     eleventyConfig.addPairedHandlebarsShortcode("ifEven", function(content, index) {
         if ((index == 0) || (index%2 == 0)) {
             return content;

@@ -11,7 +11,7 @@ title: Pieter Jansen van Rensburg | New York | Paris
 </header>
 
 <address>
-    <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#110;&#102;&#111;&#064;&#112;&#106;&#118;&#114;&#046;&#099;&#111;&#046;&#122;&#097;"><img src="/img/pjvr-contact.png" class="w3-mobile pjvr-contact"/></a>
+    <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#106;&#118;&#114;&#064;&#112;&#106;&#118;&#114;&#046;&#099;&#111;"><img src="/img/pjvr-contact.png" class="w3-mobile pjvr-contact"/></a>
 </address>
 
 <main class="">
@@ -23,8 +23,8 @@ title: Pieter Jansen van Rensburg | New York | Paris
             {{#each this }}
                 <div class="cell">
                     {{#ifVideo this.type }}
-                    <div class="video-container">
-                    <iframe class="w3-mobile" src="{{ this.src }}?loop=1&amp;autoplay=1" width="100%" height="{{ this.height }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="video-container" style="--aspect-ratio: 3 / 4;">
+                    <iframe class="w3-mobile" src="{{ this.src }}?loop=1&amp;autoplay=1&amp;muted=1&amp;background=1&amp;playsinline=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen frameborder="0"></iframe>
                     </div>
                     {{/ifVideo}}
                     {{#ifImage this.type }}
@@ -36,7 +36,10 @@ title: Pieter Jansen van Rensburg | New York | Paris
         </div>
         {{/each}}
 
+        <p class="copyright">© All Rights Reserved</p>
+
     </div>
+
 </main>
 
 

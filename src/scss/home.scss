@@ -3,8 +3,30 @@ $vspace: 50px;
 $hspace: 85px;
 $tablet: "only screen and (max-width: 800px)";
 
+@mixin font {
+    font-family: "Staatliches", "Fjallaone";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.7px;
+} 
+
 @import "flex";
 @import "fixed";
 @import "video";
+
+p {
+    &.copyright {
+        @include font;
+        padding-left: $unit;
+
+        @media #{$tablet} {
+            margin-top: $unit;
+        }
+
+    }
+}
+
 
 

@@ -1,7 +1,17 @@
 @font-face {
-    font-family: 'Staatliches';
-    src: url('/font/Staatliches-Regular.woff2') format('woff2'),
-        url('/font/Staatliches-Regular.woff') format('woff');
+    font-family: 'Fjallaone';
+    src: url('/font/fjallaone-regular-webfont.woff2') format('woff2'),
+         url('/font/fjallaone-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url('/font/staatliches-regular-webfont.woff2') format('woff2'),
+         url('/font/staatliches-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

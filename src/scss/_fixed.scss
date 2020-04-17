@@ -73,7 +73,7 @@ img {
 
     &.pjvr-new-york-paris {
         width: 1920px;
-        max-width: 28%;
+        max-width: 25%;
         @media #{$tablet} {
             max-width: 40%;
             margin: auto;
@@ -82,8 +82,8 @@ img {
 
     &.pjvr-contact {
         width: 1592px;
-        max-width: 21%;
-
+        max-width: 20%;
+        margin-left: $unit;
         @media #{$tablet} {
             margin: auto;
             max-width: 35%;
