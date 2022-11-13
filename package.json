@@ -21,6 +21,6 @@
     "@11ty/eleventy": "^0.10.0",
     "sass": "^1.26.3",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
